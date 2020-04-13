@@ -25,7 +25,10 @@ class C extends B{
 
 public class Has {
 	void display3() {
-		System.out.println("main class");
+		System.out.println("main class display 3");
+	}
+	void display4() {
+		System.out.println("main class display 4");
 	}
 	public static void main(String[] args) {
 		A a = new A();
